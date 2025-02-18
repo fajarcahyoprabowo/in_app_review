@@ -19,7 +19,7 @@ dependencies:
   url_launcher:
     git:
       url: https://github.com/tr8team/plugins-v2.git
-      ref: feat/fcp/change-url-launcher-package
+      ref: feat/fcp/ios-manifest
       path: packages/url_launcher/url_launcher
   
 dev_dependencies:
