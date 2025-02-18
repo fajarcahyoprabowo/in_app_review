@@ -13,14 +13,17 @@ dependencies:
   flutter:
     sdk: flutter
 
-  url_launcher: 
+  url_launcher: ^6.1.0
+  
+  plugin_platform_interface: ^2.0.0
+  platform: ^3.0.0
+
+dependency_overrides:
+  url_launcher:
     git:
       url: https://github.com/tr8team/plugins-v2.git
       ref: feat/fcp/change-url-launcher-package
       path: packages/url_launcher/url_launcher
-  plugin_platform_interface: ^2.0.0
-  platform: ^3.0.0
-
   
 dev_dependencies:
   flutter_test:
