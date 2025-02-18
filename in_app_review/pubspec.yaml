@@ -14,7 +14,10 @@ dependencies:
     sdk: flutter
   
   in_app_review_platform_interface: 
-    path: ../in_app_review_platform_interface
+    git:
+      url: https://github.com/fajarcahyoprabowo/in_app_review.git
+      ref: 3c794b76e666ee5faaf4683b0bf70cb86ccf3b0e
+      path: in_app_review_platform_interface
   
 dev_dependencies:
   flutter_test:
