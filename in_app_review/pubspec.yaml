@@ -16,7 +16,7 @@ dependencies:
   in_app_review_platform_interface: 
     git:
       url: https://github.com/tr8team/in_app_review.git
-      ref: 40b5591fc487f2ecc9eb124bf380cce6b788bd4e
+      ref: ebe09a1a6f6bd1f9f419bf64bf6ff2416440a53c
       path: in_app_review_platform_interface
   
 dev_dependencies:
