@@ -13,14 +13,14 @@ dependencies:
   flutter:
     sdk: flutter
 
-  plugin_platform_interface: ^2.0.0
-  platform: ^3.0.0
-
   url_launcher:
     git:
       url: https://github.com/tr8team/plugins-v2.git
       ref: feat/fcp/ios-manifest
       path: packages/url_launcher/url_launcher
+
+  plugin_platform_interface: ^2.0.0
+  platform: ^3.0.0
   
 dev_dependencies:
   flutter_test:
